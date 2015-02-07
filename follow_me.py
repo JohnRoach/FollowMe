@@ -86,13 +86,7 @@ while 1:
                      (255, 0, 0), 1, 8, 0)
 
     for point in points:
-        cv.Circle(original,
-                  point,
-                  1,
-                  (0, 0, 255),
-                  -1,
-                  8,
-                  0)
+        cv.Circle(original, point, 1, (0, 0, 255), -1, 8, 0)
 
     cv.ShowImage('Analysed', original)
     k = cv.WaitKey(33)
